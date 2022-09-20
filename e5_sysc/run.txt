@@ -1,0 +1,10 @@
+Question 1 ->
+
+gcc -g -o write fact_a.c && gcc -g -o read fact_b.c && ./write && ./read
+
+Question 2 ->
+
+gcc -g -o sen sender.c -lrt
+gcc -g -o rec reciever.c -lrt
+./sen
+./rec
